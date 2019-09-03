@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpendedLayout">
+        <!-- title文字 -->
+        <attr name="lee_titleText" format="string" />
+        <!-- titleSize -->
+        <attr name="lee_titleSize" format="dimension" />
+        <!-- 右边向下箭头图片 -->
+        <attr name="lee_rightDownIcon" format="reference" />
+        <!-- TitleLayout背景颜色 -->
+        <attr name="lee_titleBackgroundColor" format="color" />
+        <!-- TitleLayout的高度 -->
+        <attr name="lee_titleLayoutHeight" format="dimension" />
+    </declare-styleable>
+</resources>
