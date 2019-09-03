@@ -164,10 +164,12 @@ public class ExpendedLayout extends FrameLayout implements View.OnClickListener 
     public ExpendedLayout setNextViews(View... views) {
         this.mNextViews = views;
         for (int i = 0; i < views.length; i++) {
-            if (views[i] instanceof ExpendedLayout){
-                for (int j = i+1; j < views.length; j++) {
-                    ((ExpendedLayout)views[i]).setNextViews(views[j]);
+            if (views[i] instanceof ExpendedLayout&&(i+1)<views.length){
+                View[] viewsLater = new View[views.length-(i+1)];
+                for (int j = 0; j < viewsLater.length; j++) {
+                    viewsLater[j] = views[i+1+j];
                 }
+                ((ExpendedLayout)views[i]).setNextViews(viewsLater);
             }
         }
         return this;
