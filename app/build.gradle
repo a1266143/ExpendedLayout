@@ -1,4 +1,4 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.a1266143'
 
@@ -6,7 +6,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "29.0.1"
     defaultConfig {
-//        applicationId "com.xiaojun.expendedview"
+        applicationId "com.xiaojun.expendedview"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1

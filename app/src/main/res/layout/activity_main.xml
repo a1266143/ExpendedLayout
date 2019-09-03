@@ -39,6 +39,42 @@
         app:lee_titleSize="14dp"
         />
 
+        <com.xiaojun.expendedview.ExpendedLayout
+            android:id="@+id/expendedLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lee_titleBackgroundColor="@color/colorPrimary"
+            app:lee_titleSize="14dp"
+            app:lee_titleText="收款方式4"
+            />
+
+        <com.xiaojun.expendedview.ExpendedLayout
+            android:id="@+id/expendedLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lee_titleBackgroundColor="@color/colorPrimary"
+            app:lee_titleSize="14dp"
+            app:lee_titleText="TEST"
+            />
+
+        <com.xiaojun.expendedview.ExpendedLayout
+            android:id="@+id/expendedLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lee_titleBackgroundColor="@color/colorPrimary"
+            app:lee_titleSize="14dp"
+            app:lee_titleText="TEST2"
+            />
+
+        <com.xiaojun.expendedview.ExpendedLayout
+            android:id="@+id/expendedLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lee_titleBackgroundColor="@color/colorPrimary"
+            app:lee_titleSize="14dp"
+            app:lee_titleText="TEST3"
+            />
+
     </LinearLayout>
 
 </ScrollView>
